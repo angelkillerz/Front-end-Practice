@@ -1,0 +1,1 @@
+This is the repository for collecting all the front-end practices of mine
