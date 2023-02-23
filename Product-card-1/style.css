@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fraunces:opsz,wght@9..144,500&family=Merriweather:ital@0;1&family=Montserrat:wght@500;700&family=Work+Sans:wght@400;500;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Monstserrat',sans-serif;
+    background-color: hsl(30, 38%, 93%);
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: inherit;
+    box-sizing: border-box;
+    background-color: rgb(200, 210, 218);
+    border-radius: 15px;
+    margin: 10%;
+    max-width: 700px;
+    gap: 5%;
+    
+    
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 30px;
+    max-height: fit-content;
+
+}
+
+.header {
+    padding-top: 10px;
+    margin-top: 0;
+    
+}
+
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.price {
+    display: flex;
+    
+}
+
+.product-image {
+    width: 350px;
+}
+.product-img img{
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 45px;
+    overflow: hidden;
+}
+.price {
+    justify-content: center;
+
+}
+
+.price-1 {
+    margin-right: 1%;
+}
+.price > .price-1 > .price-discount {
+
+    font-weight: 700;
+    font-size: 32px;
+    color: green;
+}
+
+.price > .price-2 > .price-actual {
+    color: gray;
+    text-decoration: line-through;
+} 
+
+
+
+.add-to-cart {
+    
+    width: 100%;
+    top: 20px;
+    min-height: 30px;
+    color: antiquewhite;
+    background-color: green;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.add-to-cart:hover {
+    background-color: aliceblue;    
+    color: black;
+}
+
