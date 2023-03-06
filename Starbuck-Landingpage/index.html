@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Starbuck Website Landing Page</title>
+</head>
+<body>
+    <section>
+        <div class="circle">
+
+        </div>
+        <header>
+            <a href="#" ><img src="src/images/logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just Coffee <br> It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    HeeHooo HeeHooo HeeHoooo HeeHooo HeeHooo HeeHoooo HeeHooo HeeHooo HeeHoooo HeeHooo HeeHooo HeeHoooo
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div class="img-box">
+                    <img src="src/images/img1.png" alt="Starbuck" class="starbucks">
+            </div>
+            
+        </div>
+
+        <!-- thumbnail -->
+        <ul class="thumb">
+            <li><a href="#"><img src="src/images/thumb1.png" onclick="imgSlider('src/images/img1.png')" alt=""></a></li>
+            <li><a href="#"><img src="src/images/thumb2.png" onclick="imgSlider('src/images/img2.png')" alt=""></a></li>
+            <li><a href="#"><img src="src/images/thumb3.png" onclick="imgSlider('src/images/img3.png')" alt=""></a></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href=""><img src="src/images/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="src/images/twitter.png" alt=""></a></li>
+            <li><a href=""><img src="src/images/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <!-- javascript - part -->
+    <script type="text/javascript">
+        function imgSlider(anyhting) {
+            document.querySelector('.starbucks').src = anyhting;
+        }
+    </script>
+</body>
+</html>
